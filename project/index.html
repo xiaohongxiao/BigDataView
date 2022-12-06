@@ -1,0 +1,401 @@
+<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>姚江鞋业产业大脑展示</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery.js"></script>
+    <script>
+        $(function() {
+            $('.myscroll').myScroll({
+                speed: 60, //数值越大，速度越慢
+                rowHeight: 38 //li的高度
+            });
+        })
+
+        $(document).ready(function() {
+            var whei = $(window).width()
+            $("html").css({
+                fontSize: whei / 22
+            });
+            $(window).resize(function() {
+                var whei = $(window).width();
+                $("html").css({
+                    fontSize: whei / 22
+                })
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <!--头部-->
+        <div class="header">
+            <div class="header-left" id="time"></div>
+            <div class="header-cen">
+                <h1>姚江鞋业产业大脑展示</h1>
+            </div>
+            <div class="header-right"></div>
+        </div>
+
+        <!--中间-->
+        <div class="content">
+            <!--左边-->
+            <div class="content-left fl">
+                <!--左上-->
+                <div class="left-top">
+                    <div class="title">
+                        <span>基本信息</span>
+                    </div>
+                    <div class="list">
+                        <p>直埠鞋业起源于上世纪八十年代，从1984年第一家鞋厂创办以来，已有三十多年的发展历史，现有鞋企150多家，涵盖了鞋底、鞋面料、整鞋成型制造等完整的制鞋产业链，形成了以“布 ”类鞋业为主的直埠鞋业，品种包含童鞋、休闲保暖鞋、休闲运动鞋、EVA拖鞋等，内销全国各地，外销美国、法国、希腊等欧美、中东国家，可以满足 市场不同客户群体 的各类需求。</p>
+                        <ul>
+                            <li>鞋企数量：142家</li>
+                            <li>辅料企业：91家</li>
+                            <li>从业人群：6253人</li>
+                            <li>年总产值：10亿元</li>
+                            <li>年总产量：680万</li>
+                           <!-- <li>年总产值：4651万</li> -->
+                            <!-- <li>年总产值：4546万</li> -->
+                        </ul>
+                    </div>
+                </div>
+                <!--左中-->
+                <div class="left-center">
+                    <div class="title">
+                        <span>产品类别</span>
+                    </div>
+                    <div class="allnav" id="ceshi"></div>
+                </div>
+                <!--左下-->
+                <div class="left-bottom">
+                    <div class="title">
+                        <span>产量/产值</span>
+                    </div>
+                    <div class="allnav" id="ceshi2"></div>
+                </div>
+            </div>
+            <!--中间-->
+            <div class="content-center fl">
+                <!--头部-->
+                <div class="center-top">
+                    <div class="top-title">
+                        <ul>
+                            <li>
+                                <p>企业数量</p>
+                                <span>2</span>
+                                <span>3</span>
+                                <span>3</span>
+                                <b>家</b>
+                            </li>
+                            <li>
+                                <p>已接入</p>
+                                <span>0</span>
+                                <span>7</span>
+                                <b>%</b>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top-bottom">
+                        <div class="allnav" id="ceshi8"></div>
+                    </div>
+
+                </div>
+                <!--底部-->
+                <div class="center-bottom">
+                    <div class="bottom-left fl">
+                        <div class="allnav" id="ceshi6"></div>
+                    </div>
+                    <div class="bottom-right fr">
+                        <div class="allnav" id="ceshi7" style="width: 100%;height: 100%;"></div>
+                    </div>
+                </div>
+            </div>
+            <!--右边-->
+            <div class="content-right fr">
+                <!--右上-->
+                <div class="right-top">
+                    <!--选项卡内容-->
+                    <div id="tab_header">
+                        <ul>
+                            <li class="selected">鞋业协会信息</li>
+                            <li>产业链信息</li>
+                        </ul>
+                    </div>
+                    <!--内容-->
+                    <div id="tab_content">
+                        <div class="dom" style="display: block">
+                            <ul>
+                                <li>
+                                    <p>荣誉会长</p>
+                                    <span>张鹏</span>
+                                    <!--<label>元</label>-->
+                                </li>
+                                <li>
+                                    <p>协会会长</p>
+                                    <span>金建俊</span>
+                                    <!--<label>元</label>-->
+                                </li>
+                                <li>
+                                    <p>常务秘书长</p>
+                                    <span>郭信均</span>
+                                    <!--<label>元</label>-->
+                                </li>
+
+                            </ul>
+                            <div class="list-t">
+                                <ul>
+                                    <li>
+                                        <span>戚宇峰</span>
+                                        <p>副会长</p>
+                                    </li>
+                                    <li>
+                                        <span>周泉</span>
+                                        <p>副会长</p>
+                                    </li>
+                                    <li>
+                                        <span>俞寒冰</span>
+                                        <p>商铺</p>
+                                    </li>
+                                    <li>
+                                        <span>孟震宇</span>
+                                        <p>副会长</p>
+                                    </li>
+                                    <li>
+                                        <span>黄航飞</span>
+                                        <p>副会长</p>
+                                    </li>
+                                    <li>
+                                        <span>傅坚琼</span>
+                                        <p>副会长</p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="dom" style="display: none">
+                            <div class="listStyle">
+
+                                <span>外贸鞋业：<strong>10</strong>家</span>
+                                <span>内贸鞋业：<strong>132</strong>家</span>
+                                <span>新零售企业：<strong>1</strong>家</span>
+                                <span>抖音直播企业：<strong>12</strong>家</span>
+                                <span>传统电商企业：<strong>20</strong>家</span>
+                                <span>物流运输企业：<strong>2</strong>家</span>
+                                <span>金融服务：<strong>4</strong>家</span>
+                                <span>总用电量：<strong>273.8</strong>千瓦时</span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--选项卡内容-->
+                </div>
+                <!--右中-->
+                <div class="right-center">
+                    <div class="title">
+                        <span>销量排行</span>
+                    </div>
+
+                    <div class="echart wenzi">
+                        <div class="gun">
+                            <span>名称</span>
+                            <span>同比</span>
+                            <span>销量</span>
+                        </div>
+                        <div id="FontScroll" class="myscroll">
+                            <ul>
+                                <li>
+                                    <div class="fontInner clearfix">
+                                        <span>
+                                            <b>云豪鞋业</b>
+                                        </span>
+                                        <span>2.3%</span>
+                                        <span>8000万元</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="fontInner clearfix">
+                                        <span>
+                                            <b>元品鞋业</b>
+                                        </span>
+                                        <span>2.2%</span>
+                                        <span>2000万元</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="fontInner clearfix">
+                                        <span>
+                                            <b>华坚鞋业</b>
+                                        </span>
+                                        <span>2.15%</span>
+                                        <span>3000万元</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="fontInner clearfix">
+                                        <span>
+                                            <b>圣迈鞋业</b>
+                                        </span>
+                                        <span>2.1%</span>
+                                        <span>3000万元</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="fontInner clearfix">
+                                        <span>
+                                            <b>永佳鞋业</b>
+                                        </span>
+                                        <span>2%</span>
+                                        <span>1800万元</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="fontInner clearfix">
+                                        <span>
+                                            <b>小草鞋业</b>
+                                        </span>
+                                        <span>1.95%</span>
+                                        <span>1900万元</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="fontInner clearfix">
+                                        <span>
+                                            <b>飞达鞋业</b>
+                                        </span>
+                                        <span>1.93%</span>
+                                        <span>1900万元</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="fontInner clearfix">
+                                        <span>
+                                            <b>鑫顺工贸</b>
+                                        </span>
+                                        <span>1.9%</span>
+                                        <span>1700万元</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="fontInner clearfix">
+                                        <span>
+                                            <b>布捷达鞋业</b>
+                                        </span>
+                                        <span>1.8%</span>
+                                        <span>1800万元</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="fontInner clearfix">
+                                        <span>
+                                            <b>奥海鞋厂</b>
+                                        </span>
+                                        <span>1.8%</span>
+                                        <span>1600万元</span>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--右下-->
+                <div class="right-bottom">
+                    <div class="title">
+                        <span>知名品牌(亿元)</span>
+                    </div>
+                    <div class="right-bottom-t">
+                        <div class="b-left" id="ceshi3"></div>
+                        <div class="b-cent" id="ceshi4"></div>
+                        <div class="b-right" id="ceshi5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <script src="js/echarts.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <!--<script src="js/data01.js"></script>-->
+    <!--<script src="js/mapIndex.js"></script>-->
+
+
+    <script src="js/echart.js"></script>
+    <script src="js/fontscroll.js"></script>
+    <script src="js/china.js"></script>
+
+
+
+
+
+    <script>
+        //顶部时间
+        function getTime() {
+            var myDate = new Date();
+            var myYear = myDate.getFullYear(); //获取完整的年份(4位,1970-????)
+            var myMonth = myDate.getMonth() + 1; //获取当前月份(0-11,0代表1月)
+            var myToday = myDate.getDate(); //获取当前日(1-31)
+            var myDay = myDate.getDay(); //获取当前星期X(0-6,0代表星期天)
+            var myHour = myDate.getHours(); //获取当前小时数(0-23)
+            var myMinute = myDate.getMinutes(); //获取当前分钟数(0-59)
+            var mySecond = myDate.getSeconds(); //获取当前秒数(0-59)
+            var week = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+            var nowTime;
+
+            nowTime = myYear + '-' + fillZero(myMonth) + '-' + fillZero(myToday) + '&nbsp;&nbsp;' + fillZero(myHour) + ':' + fillZero(myMinute) + ':' + fillZero(mySecond) + '&nbsp;&nbsp;' + week[myDay] + '&nbsp;&nbsp;';
+            //console.log(nowTime);
+            $('#time').html(nowTime);
+        };
+
+        function fillZero(str) {
+            var realNum;
+            if (str < 10) {
+                realNum = '0' + str;
+            } else {
+                realNum = str;
+            }
+            return realNum;
+        }
+        setInterval(getTime, 1000);
+    </script>
+    <script>
+        $(function() {
+            var allLis = document.getElementById("tab_header").getElementsByTagName("li");
+            var allDom = document.getElementById("tab_content").getElementsByClassName("dom");
+
+            // console.log(allLis, allDom);
+
+            // 2. 遍历监听
+            for (var i = 0; i < allLis.length; i++) {
+                var li = allLis[i];
+                li.index = i;
+
+                li.onclick = function() {
+                    console.log(i);
+                    for (var j = 0; j < allLis.length; j++) {
+                        allLis[j].className = '';
+                        allDom[j].style.display = 'none';
+                    }
+
+                    this.className = 'selected';
+                    allDom[this.index].style.display = 'block';
+
+                }
+            }
+        })
+    </script>
+
+
+</body>
+
+</html>
